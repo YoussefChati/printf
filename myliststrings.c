@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * charachterprnt - Character write
+ * charachterprnt - character write
  * Rights reserved by Raniabenali and YoussefChati
  *
  * @list: listing of arg
@@ -14,7 +14,7 @@ int charachterprnt(va_list list)
 
 
 /**
- * mystring - String write
+ * mystring - string write
  * Rights reserved by Raniabenali and YoussefChati
  *
  * @list: listing of arg

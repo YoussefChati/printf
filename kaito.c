@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * myprintf - String printing
+ * myprintf - string printing
  * Rights reserved by Raniabenali and YoussefChati
  *
  * @format: string consists of 0 or more directives
