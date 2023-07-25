@@ -3,7 +3,7 @@
 int myhexcheck(int, char);
 
 /**
- * mybinary - Returns a number to binary
+ * mybinary - returns a number to binary
  * Rights reserved by Raniabenali and YoussefChati
  *
  * @list: listing arg passed to this function
@@ -87,7 +87,7 @@ int myoctal(va_list list)
 }
 
 /**
- * myprinthex - Returns numbers
+ * myprinthex - returns numbers
  * Rights reserved by Raniabenali and YoussefChati
  *
  * @list: listing arg passed to function
