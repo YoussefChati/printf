@@ -26,7 +26,7 @@ int function(va_list arg)
 }
 
 /**
- * myput - Trasnform string
+ * myput - trasnform string
  * Rights reserved by Raniabenali and YoussefChati
  *
  * @list: convert string
