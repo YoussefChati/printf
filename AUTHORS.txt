@@ -1,3 +1,0 @@
-# This file displays the names of the legitimate contributors to the printf project in this repository
-Youssef Chati <youssefchati3333@gmail.com>
-Rania benali <raniabenali90@gmail.com>

@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * myrev - String reverses series
- * All rights reserved or owned by Imane47250 and Fatimazahralachkar
+ * myrev - Converst string to series
+ * Rights reserved by Raniabenali and YoussefChati
  *
  * @s: reverse
  * Return: characters pointers
@@ -22,7 +22,7 @@ char *myrev(char *s)
 	if (dest == NULL)
 		return (NULL);
 
-	memory(dest, s, len);
+	library(dest, s, len);
 	for (head = 0; head < len; head++, len--)
 	{
 		tmp = dest[len - 1];
@@ -33,8 +33,8 @@ char *myrev(char *s)
 }
 
 /**
- * mywriting - sends characters to be typed
- * All rights reserved or owned by Imane47250 and Fatimazahralachkar
+ * mywriting - Print character
+ * Rights reserved by Raniabenali and YoussefChati
  *
  * @str: series to be analyzed
  * Return: analysis process
@@ -48,8 +48,8 @@ void mywriting(char *str)
 }
 
 /**
- * mylen - count length an octal number
- * All rights reserved or owned by Imane47250 and Fatimazahralachkar
+ * mylen - Check lenght of a number
+ * Rights reserved by Raniabenali and YoussefChati
  *
  * @base: calculated by it
  * @num: numbers for which length is being calculated
@@ -67,15 +67,15 @@ unsigned int mylen(unsigned int num, int base)
 }
 
 /**
- * library - Copy the memory area
- * All rights reserved or owned by Imane47250 and Fatimazahralachkar
+ * library - Take the memory area
+ * Rights reserved by Raniabenali and YoussefChati
  *
  * @n: numbers of bytes for copy
  * @src: source to be copied
  * @dest: copy destination
  * Return: memorycopy() function returns pointer to dest.
  */
-char library(char *dest, char *src, unsigned int n)
+char *library(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 

@@ -7,7 +7,7 @@
 
 /**
 * struct convert - struct defines structure for functions and icons
-* All rights reserved or owned by Imane47250 and Fatimazahralachkar
+* Rights reserved by Raniabenali and YoussefChati
 *
 * @f: associated function
 * @sym: operator
@@ -20,26 +20,26 @@ struct convert
 typedef struct convert conver_t;
 
 /*basic_variables*/
-int analyzer(const char *format, conver_t f_list[], va_list arg_list);
+int mytchecker(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
-int charwriting(char);
-int pchar(va_list);
-int pstring(va_list);
-int percent(va_list);
-int integer(va_list);
-int numprinting(va_list);
-int binary(va_list);
-int reversed(va_list arg);
-int putrefy(va_list);
-int _integer(va_list);
-int octal(va_list list);
-int print_hex(va_list list);
-int heX(va_list list);
+int myputchar(char);
+int charachterprnt(va_list);
+int mystring(va_list);
+int myprcnt(va_list);
+int myint(va_list);
+int printnumbers(va_list);
+int mybinary(va_list);
+int function(va_list arg);
+int myput(va_list);
+int mysecint(va_list);
+int myoctal(va_list list);
+int myprinthex(va_list list);
+int myhex(va_list list);
 
 /*functions*/
-unsigned int length(unsigned int, int);
-char *reverses(char *);
-void writingrule(char *str);
-char *memory(char *dest, char *src, unsigned int n);
-int pin(unsigned int);
+unsigned int mylen(unsigned int, int);
+char *myrev(char *);
+void mywriting(char *str);
+char *library(char *dest, char *src, unsigned int n);
+int print(unsigned int);
 #endif
